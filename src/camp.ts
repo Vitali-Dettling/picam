@@ -9,8 +9,6 @@ const myCamera = new PiCamera({
   nopreview: true,
 });
 
-
-
 myCamera.snap()
   .then((res) => {
     console.error(res);

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/show.css">
+        <script src="./js/slide.js"></script>
+    </head>
+    <body>
+
+        <div style="text-align:center">
+        <h2>Pi Image Gallery</h2>
+        <p>Click on the images below:</p>
+        </div>
+
+        <!-- The four columns -->
+        <div class="row">
+        <div class="column">
+            <img src="C:\dev\picam\img\test.jpg" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="C:\dev\picam\img\test2.jpg" style="width:100%" onclick="myFunction(this);">
+        </div>
+        </div>
+
+        <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        </div>
+
+    </body>
+</html>
