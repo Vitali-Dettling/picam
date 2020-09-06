@@ -1,0 +1,16 @@
+{
+    "name": "picamp",
+    "version": "0.0.0",
+    "main": "src/camp.ts",
+    "author": "Nikita Hergert",
+    "scripts": {
+        "start": "tsc && node src/camp.ts"
+    },
+    "dependencies": {
+        "@types/node": "^14.6.1",
+        "pi-camera": "^1.3.0"
+    },
+    "devDependencies": {
+        "typescript": "^3.3.3"
+    }
+}
