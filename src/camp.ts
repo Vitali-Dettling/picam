@@ -18,4 +18,3 @@ myCamera.snap()
   .catch((err) => {
      console.error(err);
   });
-
